@@ -25,7 +25,7 @@ This project implements a complete ETL (Extract, Transform, Load) pipeline using
 Open a terminal and move to the root directory of the unzipped project:
 
 ```bash
-cd PRYECTO_ETL
+cd ~/Documents/pryecto_etl/PRYECTO_ETL
 ```
 
 ### 2. Initialize the Airflow Database (only once)
