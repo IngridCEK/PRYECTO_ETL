@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 def transform_all(**kwargs):
-    client = MongoClient("mongodb://mongo:27017/")
+    client = MongoClient("mongodb://localhost:27017/")
     db = client["etl_project_db"]
 
     # --- Transform Infectious Diseases ---
