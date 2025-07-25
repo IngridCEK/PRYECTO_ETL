@@ -270,3 +270,395 @@
 [2025-07-25T06:34:20.815+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:34:20.815+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-07-25T06:34:20.874+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:34:20.874+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
 [2025-07-25T06:34:20.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.241 seconds
+[2025-07-25T06:57:14.911+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:57:14.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T06:57:14.915+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:57:14.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:57:14.942+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:57:14.936+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T06:57:14.944+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:57:14.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.077 seconds
+[2025-07-25T06:57:46.293+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:57:46.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T06:57:46.299+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:57:46.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:57:46.344+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:57:46.333+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T06:57:46.347+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:57:46.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.121 seconds
+[2025-07-25T06:58:16.992+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:58:16.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T06:58:16.995+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:58:16.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:58:17.013+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:58:17.008+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T06:58:17.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:58:17.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.049 seconds
+[2025-07-25T06:58:47.567+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:58:47.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T06:58:47.570+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:58:47.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:58:47.588+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:58:47.583+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T06:58:47.589+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:58:47.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.052 seconds
+[2025-07-25T06:59:18.497+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:59:18.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T06:59:18.501+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:59:18.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:59:18.532+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:59:18.525+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T06:59:18.534+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:59:18.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.156 seconds
+[2025-07-25T06:59:49.123+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:59:49.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T06:59:49.125+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:59:49.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:59:49.143+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:59:49.139+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T06:59:49.144+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T06:59:49.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.050 seconds
+[2025-07-25T07:00:19.849+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:00:19.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:00:19.852+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:00:19.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:00:19.872+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:00:19.868+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:00:19.873+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:00:19.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.068 seconds
+[2025-07-25T07:00:50.909+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:00:50.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:00:50.911+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:00:50.911+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:00:50.927+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:00:50.924+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:00:50.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:00:50.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.046 seconds
+[2025-07-25T07:01:21.328+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:01:21.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:01:21.331+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:01:21.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:01:21.350+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:01:21.346+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:01:21.352+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:01:21.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.052 seconds
+[2025-07-25T07:01:52.010+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:01:52.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:01:52.013+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:01:52.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:01:52.028+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:01:52.024+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:01:52.030+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:01:52.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.044 seconds
+[2025-07-25T07:03:02.390+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:03:02.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:03:02.401+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:03:02.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:03:02.444+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:03:02.433+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:03:02.448+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:03:02.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.135 seconds
+[2025-07-25T07:03:32.620+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:03:32.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:03:32.622+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:03:32.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:03:32.638+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:03:32.635+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:03:32.640+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:03:32.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.049 seconds
+[2025-07-25T07:04:03.741+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:04:03.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:04:03.747+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:04:03.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:04:03.796+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:04:03.788+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:04:03.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:04:03.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.142 seconds
+[2025-07-25T07:04:34.097+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:04:34.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:04:34.100+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:04:34.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:04:34.118+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:04:34.114+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:04:34.120+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:04:34.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.055 seconds
+[2025-07-25T07:05:04.389+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:05:04.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:05:04.391+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:05:04.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:05:04.408+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:05:04.404+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:05:04.409+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:05:04.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.045 seconds
+[2025-07-25T07:05:34.732+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:05:34.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:05:34.735+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:05:34.735+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:05:34.753+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:05:34.748+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 6, in <module>
+    from raw_infectious_data import raw_infectious_data
+ModuleNotFoundError: No module named 'raw_infectious_data'
+[2025-07-25T07:05:34.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:05:34.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.049 seconds
+[2025-07-25T07:06:05.104+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:06:05.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:06:05.106+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:06:05.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:06:05.210+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:06:05.206+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 7, in <module>
+    from ingestion_diabetes import raw_diabetes_data
+ImportError: cannot import name 'raw_diabetes_data' from 'ingestion_diabetes' (/opt/airflow/dags/ingestion_diabetes.py)
+[2025-07-25T07:06:05.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:06:05.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.137 seconds
+[2025-07-25T07:07:04.008+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:07:04.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:07:04.014+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:07:04.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:07:04.191+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:07:04.184+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 7, in <module>
+    from ingestion_diabetes import raw_diabetes_data
+ImportError: cannot import name 'raw_diabetes_data' from 'ingestion_diabetes' (/opt/airflow/dags/ingestion_diabetes.py)
+[2025-07-25T07:07:04.193+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:07:04.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.236 seconds
+[2025-07-25T07:07:34.568+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:07:34.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:07:34.572+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:07:34.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:07:34.676+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:07:34.669+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 7, in <module>
+    from ingestion_diabetes import raw_diabetes_data
+ImportError: cannot import name 'raw_diabetes_data' from 'ingestion_diabetes' (/opt/airflow/dags/ingestion_diabetes.py)
+[2025-07-25T07:07:34.682+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:07:34.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.147 seconds
+[2025-07-25T07:08:04.881+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:08:04.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:08:04.884+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:08:04.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:08:05.076+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:08:05.072+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 7, in <module>
+    from ingestion_diabetes import raw_diabetes_data
+ImportError: cannot import name 'raw_diabetes_data' from 'ingestion_diabetes' (/opt/airflow/dags/ingestion_diabetes.py)
+[2025-07-25T07:08:05.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:08:05.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.234 seconds
+[2025-07-25T07:08:35.343+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:08:35.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:08:35.345+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:08:35.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:08:35.431+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:08:35.427+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 7, in <module>
+    from ingestion_diabetes import raw_diabetes_data
+ImportError: cannot import name 'raw_diabetes_data' from 'ingestion_diabetes' (/opt/airflow/dags/ingestion_diabetes.py)
+[2025-07-25T07:08:35.432+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:08:35.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.118 seconds
+[2025-07-25T07:09:07.704+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:09:07.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:09:07.706+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:09:07.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:09:07.815+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:09:07.811+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/main_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_pipeline.py", line 7, in <module>
+    from ingestion_diabetes import raw_diabetes_data
+ImportError: cannot import name 'raw_diabetes_data' from 'ingestion_diabetes' (/opt/airflow/dags/ingestion_diabetes.py)
+[2025-07-25T07:09:07.817+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:09:07.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.147 seconds
+[2025-07-25T07:10:20.429+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:10:20.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:10:20.435+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:10:20.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:10:20.922+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:10:21.468+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:10:21.468+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:10:21.526+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:10:21.526+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:10:21.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 1.156 seconds
+[2025-07-25T07:10:51.949+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:10:51.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:10:51.952+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:10:51.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:10:52.073+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:10:52.107+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:10:52.106+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:10:52.137+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:10:52.137+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:10:52.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.218 seconds
+[2025-07-25T07:11:22.227+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:11:22.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:11:22.229+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:11:22.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:11:22.323+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:11:22.352+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:11:22.352+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:11:22.377+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:11:22.376+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:11:22.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.176 seconds
+[2025-07-25T07:11:52.529+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:11:52.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:11:52.532+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:11:52.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:11:52.628+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:11:52.661+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:11:52.661+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:11:52.686+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:11:52.686+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:11:52.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.187 seconds
+[2025-07-25T07:12:23.562+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:12:23.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:12:23.566+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:12:23.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:12:23.678+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:12:23.713+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:12:23.712+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:12:23.741+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:12:23.740+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:12:23.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.209 seconds
+[2025-07-25T07:12:56.962+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:12:56.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:12:56.967+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:12:56.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:12:57.137+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:12:57.221+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:12:57.221+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:12:57.305+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:12:57.305+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:12:57.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.390 seconds
+[2025-07-25T07:13:29.648+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:13:29.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:13:29.657+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:13:29.656+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:13:29.901+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:13:29.967+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:13:29.966+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:13:30.029+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:13:30.028+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:13:30.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.458 seconds
+[2025-07-25T07:14:02.376+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:14:02.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:14:02.381+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:14:02.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:14:02.599+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:14:02.654+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:14:02.654+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:14:02.705+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:14:02.705+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:14:02.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.383 seconds
+[2025-07-25T07:14:34.998+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:14:34.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:14:35.001+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:14:35.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:14:35.123+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:14:35.157+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:14:35.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:14:35.184+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:14:35.184+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:14:35.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.217 seconds
+[2025-07-25T07:15:07.374+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:07.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:15:07.377+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:07.377+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:07.496+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:07.534+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:07.533+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:15:07.561+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:07.560+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:15:07.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.217 seconds
+[2025-07-25T07:15:39.914+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:39.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:15:39.917+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:39.917+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:40.063+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:40.095+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:40.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:15:40.121+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:40.121+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:15:40.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.242 seconds
+[2025-07-25T07:15:45.231+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:45.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main_pipeline.py for tasks to queue
+[2025-07-25T07:15:45.233+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:45.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:45.364+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/main_pipeline.py
+[2025-07-25T07:15:45.397+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:45.396+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-25T07:15:45.425+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:45.425+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-25 00:00:00+00:00, run_after=2025-07-26 00:00:00+00:00
+[2025-07-25T07:15:45.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main_pipeline.py took 0.229 seconds

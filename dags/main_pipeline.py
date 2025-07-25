@@ -3,9 +3,10 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
 # Importamos las funciones de ingesta que solo hacen la parte cruda (raw)
-from raw_infectious_data import raw_infectious_data
-from raw_diabetes_data import raw_diabetes_data
-from raw_people_in_space import raw_people_in_space
+from ingestion_infectious import raw_infectious_data
+from ingestion_diabetes import raw_diabetes_data
+from ingestion_space import raw_people_in_space
+
 
 # Importamos la función central que transforma y carga todos los datos
 from transform_all import transform_all

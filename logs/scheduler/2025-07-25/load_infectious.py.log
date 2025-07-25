@@ -1,0 +1,165 @@
+[2025-07-25T06:57:14.886+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:57:14.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T06:57:14.890+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:57:14.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:57:15.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:57:15.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.147 seconds
+[2025-07-25T06:57:46.010+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:57:46.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T06:57:46.015+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:57:46.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:57:46.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:57:46.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.195 seconds
+[2025-07-25T06:58:16.854+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:58:16.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T06:58:16.857+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:58:16.856+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:58:16.931+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:58:16.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.097 seconds
+[2025-07-25T06:58:47.558+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:58:47.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T06:58:47.561+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:58:47.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:58:47.639+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:58:47.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.100 seconds
+[2025-07-25T06:59:18.349+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:59:18.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T06:59:18.352+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:59:18.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:59:18.432+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:59:18.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.107 seconds
+[2025-07-25T06:59:49.112+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:59:49.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T06:59:49.115+0000] {logging_mixin.py:188} INFO - [2025-07-25T06:59:49.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:59:49.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T06:59:49.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.105 seconds
+[2025-07-25T07:00:19.801+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:00:19.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:00:19.804+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:00:19.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:00:19.894+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:00:19.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.116 seconds
+[2025-07-25T07:00:50.788+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:00:50.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:00:50.791+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:00:50.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:00:50.855+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:00:50.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.086 seconds
+[2025-07-25T07:01:21.179+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:01:21.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:01:21.183+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:01:21.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:01:21.262+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:01:21.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.106 seconds
+[2025-07-25T07:01:51.891+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:01:51.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:01:51.893+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:01:51.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:01:51.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:01:51.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.085 seconds
+[2025-07-25T07:03:01.858+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:03:01.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:03:01.864+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:03:01.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:03:02.061+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:03:02.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.282 seconds
+[2025-07-25T07:03:32.491+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:03:32.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:03:32.494+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:03:32.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:03:32.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:03:32.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.090 seconds
+[2025-07-25T07:04:03.416+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:04:03.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:04:03.423+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:04:03.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:04:03.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:04:03.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.234 seconds
+[2025-07-25T07:04:33.965+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:04:33.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:04:33.968+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:04:33.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:04:34.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:04:34.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.090 seconds
+[2025-07-25T07:05:04.267+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:05:04.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:05:04.270+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:05:04.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:05:04.330+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:05:04.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.081 seconds
+[2025-07-25T07:05:34.589+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:05:34.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:05:34.592+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:05:34.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:05:34.666+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:05:34.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.099 seconds
+[2025-07-25T07:06:04.946+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:06:04.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:06:04.950+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:06:04.950+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:06:05.017+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:06:05.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.093 seconds
+[2025-07-25T07:07:04.547+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:07:04.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:07:04.560+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:07:04.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:07:04.686+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:07:04.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.177 seconds
+[2025-07-25T07:07:34.847+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:07:34.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:07:34.849+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:07:34.849+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:07:34.913+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:07:34.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.085 seconds
+[2025-07-25T07:08:05.289+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:08:05.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:08:05.292+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:08:05.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:08:05.372+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:08:05.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.108 seconds
+[2025-07-25T07:08:35.620+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:08:35.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:08:35.623+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:08:35.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:08:35.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:08:35.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.083 seconds
+[2025-07-25T07:09:08.033+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:09:08.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:09:08.039+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:09:08.037+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:09:08.116+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:09:08.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.105 seconds
+[2025-07-25T07:10:21.301+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:10:21.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:10:21.307+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:10:21.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:10:21.456+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:10:21.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.198 seconds
+[2025-07-25T07:10:51.790+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:10:51.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:10:51.793+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:10:51.792+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:10:51.877+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:10:51.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.112 seconds
+[2025-07-25T07:11:22.097+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:11:22.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:11:22.099+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:11:22.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:11:22.167+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:11:22.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.088 seconds
+[2025-07-25T07:11:52.406+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:11:52.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:11:52.408+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:11:52.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:11:52.472+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:11:52.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.085 seconds
+[2025-07-25T07:12:23.815+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:12:23.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:12:23.818+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:12:23.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:12:23.885+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:12:23.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.089 seconds
+[2025-07-25T07:12:57.415+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:12:57.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:12:57.418+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:12:57.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:12:57.498+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:12:57.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.102 seconds
+[2025-07-25T07:13:30.156+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:13:30.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:13:30.162+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:13:30.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:13:30.331+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:13:30.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.218 seconds
+[2025-07-25T07:14:02.829+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:14:02.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:14:02.833+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:14:02.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:14:02.970+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:14:02.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.174 seconds
+[2025-07-25T07:14:35.251+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:14:35.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:14:35.254+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:14:35.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:14:35.327+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:14:35.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.095 seconds
+[2025-07-25T07:15:07.630+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:15:07.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:15:07.633+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:07.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:15:07.705+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:15:07.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.095 seconds
+[2025-07-25T07:15:40.098+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:15:40.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_infectious.py for tasks to queue
+[2025-07-25T07:15:40.101+0000] {logging_mixin.py:188} INFO - [2025-07-25T07:15:40.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:15:40.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_infectious.py
+[2025-07-25T07:15:40.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_infectious.py took 0.093 seconds

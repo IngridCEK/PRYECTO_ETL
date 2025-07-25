@@ -3,7 +3,7 @@ from pymongo import MongoClient  # Importamos MongoClient para conectarnos a la 
 from datetime import datetime     # Para guardar la fecha y hora en que se obtuvieron los datos
 
 # Función que realiza solo la ingesta (extracción y carga cruda) de datos de enfermedades infecciosas
-def raw_infectious_data(ti):
+def raw_diabetes_data(ti):
     # Esta función se conecta a la API pública disease.sh para obtener datos de COVID por país.
     # Luego guarda esos datos crudos en MongoDB para ser transformados más adelante (en transform_all.py).
     # Finalmente, envía por XCom la cantidad de registros que se procesaron.
