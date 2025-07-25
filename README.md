@@ -26,6 +26,10 @@ Open a terminal and move to the root directory of the unzipped project:
 
 ```bash
 cd ~/Documents/pryecto_etl/PRYECTO_ETL
+<<<<<<< HEAD
+=======
+
+>>>>>>> 011ddc4 (Actualización con nuevos archivos y cambios (sin archivos eliminados))
 ```
 
 ### 2. Initialize the Airflow Database (only once)
